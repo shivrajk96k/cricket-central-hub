@@ -5,7 +5,7 @@
 const API_BASE = "https://api.cricapi.com/v1";
 
 // Store API key - users should set this
-let API_KEY = localStorage.getItem("cricket_api_key") || "";
+let API_KEY = localStorage.getItem("cricket_api_key") || "020c034d-dc1f-42a4-8225-b9c20ef0fd4e";
 
 export function setApiKey(key: string) {
   API_KEY = key;
